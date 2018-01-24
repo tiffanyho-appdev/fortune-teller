@@ -1,23 +1,55 @@
 # Fortune Teller
 
-## Standard Workflow
+## Setup
 
- 1. Fork to your own account.
- 1. Clone to your computer.
- 1. In the GitHub Desktop app, [create a branch for your work](https://help.github.com/desktop/guides/contributing/creating-a-branch-for-your-work/#creating-a-branch).
- 1. Open the entire folder you downloaded in Atom.
- 1. Make your first change to the code. (You could modify this `README.md` file by adding your username next to the project in the heading, for example.)
- 1. In the GitHub Desktop app, create a commit. You *must* type a "summary"; "description" is optional.
- 1. Click Publish. Verify that your branch is now visible on your fork at GitHub.com in the "Branch" dropdown.
- 1. **Commit and Sync often as you work.**
- 1. Make new branches freely to experiment! You can always switch back to an older branch using the dropdown in the Desktop App, and all of your files will instantly snap back to their older state. **So, when in doubt, create a branch**, _especially_ before starting on a new task.
- 1. You don't need to merge back into your master branch; in the end, just stay on whatever your best branch is. (In the real world, you would ultimately merge your best branch back into your master branch and deploy it to your production server.)
- 1. Run `rails grade` as often as you like to see how you are doing.
- 1. You can push commits and `rails grade` right up until the due date.
- 1. If you have a question about your code, a great way to get feedback is to open a [Pull Request](https://help.github.com/articles/creating-a-pull-request/). After creating it, if you include the URL of your Pull Request when you post your question, reviewers will be able to easily see the changes you've made and leave comments on each line of your code with suggestions.
+ 1. Ensure that you've forked this repo to your own GitHub account.
+ 1. Set up [a Cloud9 workspace as usual](https://guides.firstdraft.com/getting-started-with-cloud-9.html) based on this repo.
+ 1. `bin/setup`
+ 1. Run Project
+ 1. Navigate to the live app in Chrome.
 
-## Project Specific Instructions
+## Getting Started video
 
-1. `cd` into the folder you downloaded.
-1. `bundle install` (or `bundle` for short)
-1. `rails server` (or `rails s` for short)
+You'll find a brief Getting Started video for this project in Canvas. You should still read this README thoroughly.
+
+## Study static routes
+
+This app currently supports two routes: `/lucky_numbers` and `unlucky_numbers`.
+
+Open up the [RCAV Flowchart](https://guides.firstdraft.com/rcav-flowchart.html) and use it as a map to follow how each of these two pages is working, from `config/routes.rb` through the `app/controllers` and finally to the `app/views`.
+
+`unlucky_numbers.html.erb` even demonstrates how to do a `.each` within a `.html.erb` View Template. Ask a question about anything that you don't understand about these two fully-functional RCAVs.
+
+## Debug static routes
+
+I've added a list of nav links to `/zodiacs/leo`, `zodiacs/cancer`, etc.
+
+Currently, none of them work. In `routes.rb`, you'll see that I've added 12 routes but commented them all out. Each RCAV is broken in some way.
+
+Uncomment each one *ONE AT A TIME* and make it work.
+
+Let me say that again:
+
+#### Uncomment each route ONE AT A TIME and debug it
+
+**ONE**
+
+**AT**
+
+**A**
+
+**TIME**
+
+If you uncomment them all at once, you'll have lots of problems because they all have bugs in them.
+
+Refer frequently to the [RCAV Flowchart](https://guides.firstdraft.com/rcav-flowchart.html).
+
+I've planted at least one bug into each RCAV.
+
+**YOUR JOB:** Debug all 12 RCAVs.
+
+For example, the video describes how to fix the first zodiac -- Aries.
+
+## Submitting
+
+Use the [Continuous Integration workflow](https://guides.firstdraft.com/continuous-integration.html) to save and submit.
