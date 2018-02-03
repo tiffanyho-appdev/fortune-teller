@@ -8,7 +8,7 @@
 
 ## Getting Started video
 
-You'll find a brief Getting Started video for this project in Canvas. You should still read this README thoroughly. (The video is from before we started using Cloud9, so wherever you see `localhost:3000`, instead replace it with your Cloud9 Preview URL.)
+You'll find a brief Getting Started video for this project in Canvas. You should still read this README thoroughly. (The video is from before we started using Cloud9, so wherever you see `localhost:3000`, instead imagine your Cloud9 Preview URL.)
 
 ## Study static routes
 
