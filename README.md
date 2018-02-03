@@ -2,15 +2,13 @@
 
 ## Setup
 
- 1. Ensure that you've forked this repo to your own GitHub account.
- 1. Set up [a Cloud9 workspace as usual](https://guides.firstdraft.com/getting-started-with-cloud-9.html) based on this repo.
  1. `bin/setup`
- 1. Run Project
- 1. Navigate to the live app in Chrome.
+ 1. `bin/server`
+ 1. Preview running application
 
 ## Getting Started video
 
-You'll find a brief Getting Started video for this project in Canvas. You should still read this README thoroughly.
+You'll find a brief Getting Started video for this project in Canvas. You should still read this README thoroughly. (The video is from before we started using Cloud9, so wherever you see `localhost:3000`, instead replace it with your Cloud9 Preview URL.)
 
 ## Study static routes
 
