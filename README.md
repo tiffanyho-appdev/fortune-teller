@@ -50,4 +50,4 @@ For example, the video describes how to fix the first zodiac -- Aries.
 
 ## Submitting
 
-Use the [Continuous Integration workflow](https://guides.firstdraft.com/continuous-integration.html) to save and submit.
+`rails grade:all` when you're ready for feedback/to submit.
