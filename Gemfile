@@ -44,6 +44,8 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :development, :test do
+  gem "better_errors"
+  gem "binding_of_caller"
   gem "dotenv-rails"
   gem "grade_runner", github: "firstdraft/grade_runner"
   gem "pry-rails"
@@ -54,8 +56,6 @@ end
 
 group :development do
   gem "annotate"
-  gem "better_errors"
-  gem "binding_of_caller"
   gem "dev_toolbar", github: "firstdraft/dev_toolbar"
   gem "draft_generators", github: "firstdraft/draft_generators"
   gem "letter_opener"
